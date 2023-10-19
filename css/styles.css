@@ -91,16 +91,20 @@ img {
 
 
 
-}
-.list .link {
+
+
+
+.list-studio {
     color: var(--NAVY-BLUE);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    position: relative;
+    
 }
-.list .link:hover {
+.list-studio:hover {
     color: var(--OCEAN);
 }
-.list .link:focus {
+.list-studio:focus {
     color: var(--OCEAN);
 }
 
