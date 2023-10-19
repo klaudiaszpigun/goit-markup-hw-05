@@ -92,6 +92,7 @@ img {
 
 
 .list .link {
+    position: relative;
     color: var(--NAVY-BLUE);
     line-height: 1.5;
     letter-spacing: 0.02em;
