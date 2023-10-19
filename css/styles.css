@@ -99,7 +99,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     position: relative;
-    
+    color: var(--OCEAN);
 }
 .list-studio:hover {
     color: var(--OCEAN);
