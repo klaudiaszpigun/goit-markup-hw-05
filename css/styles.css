@@ -91,7 +91,8 @@ img {
 
 
 .list-studio {     
-    color: var(--NAVY-BLUE);     line-height: 1.5;
+    color: var(--OCEAN);
+    line-height: 1.5;
     letter-spacing: 0.02em;     
     position: relative;
 } 
