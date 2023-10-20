@@ -95,7 +95,7 @@ img {
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
-.list-studio::after {
+.list-studio:hover::after {
     position: absolute;     
     content: '';     
     width: 100%;     
@@ -123,7 +123,7 @@ img {
     display: flex;
     gap: 40px; 
 }
-.address .contacts {
+.contacts {
     color: var(--SLATE);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
