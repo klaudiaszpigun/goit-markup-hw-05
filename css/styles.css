@@ -82,10 +82,15 @@ img {
 }
 .link {
     text-decoration: none;
+    color: var(--NAVY-BLUE);
 }
 .studio {
     color: var(--NAVY-BLUE)
 }
+
+
+
+
 
 
 
