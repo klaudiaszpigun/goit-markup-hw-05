@@ -80,10 +80,6 @@ img {
     margin: 0 auto;
 
 }
-.link-dark {
-    text-decoration: none;
-    color: var(--NAVY-BLUE);
-}
 .link {
     text-decoration: none;
 }
@@ -113,6 +109,9 @@ img {
     bottom: -1px;     
     left: 0;     
     background-color: var(--OCEAN);
+}
+.list .link {
+    color: var(--NAVY-BLUE);
 }
 .list .link:hover {
     color: var(--OCEAN);
