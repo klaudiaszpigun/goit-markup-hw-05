@@ -480,6 +480,7 @@ img {
     border: 1px solid var(--LIGHT-SLATE);
     border-radius: 4px;
     color: var(--LIGHT-SLATE);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .fifth-section-link:hover,
 .fifth-section-link:focus {
