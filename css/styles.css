@@ -224,10 +224,13 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 526px;
-    min-height: 581px;
-    background-color: var(--WHITE);
+    transform: translate(-50%, -50%) scale(1);
+    width: 408px;
+    min-height: 584px;
+    background-color: var(--DAIRY);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-btn {
     position: absolute;
@@ -235,10 +238,22 @@ img {
     right: 8px;
     width: 30px;
     height: 30px;
-    background-color: var(--WHITE);
+    background-color: var(--CORNFLOWER);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+}
+.close-btn:hover {
+    background-color: var(--OCEAN);
+    border: none;
+}
+.close-btn:focus {
+    background-color: var(--OCEAN);
+    border: none;
 }
 .is-hidden {
     opacity: 0;
