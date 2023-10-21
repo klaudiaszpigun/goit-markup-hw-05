@@ -83,6 +83,10 @@ img {
 .link {
     text-decoration: none;
 }
+.link-dark {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+}
 .studio {
     color: var(--NAVY-BLUE)
 }
@@ -109,9 +113,6 @@ img {
     bottom: -1px;     
     left: 0;     
     background-color: var(--OCEAN);
-}
-.list .link {
-    color: var(--NAVY-BLUE);
 }
 .list .link:hover {
     color: var(--OCEAN);
