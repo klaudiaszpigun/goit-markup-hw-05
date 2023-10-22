@@ -674,6 +674,20 @@ img {
 
 
 
+.list-portfolio {
+    position: relative;
+    color: var(--OCEAN);
+}
+.list-portfolio::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    bottom: -1px;
+    left: 0;
+    background-color: var(--OCEAN);
+}
 
 
 .portfolio-section {
