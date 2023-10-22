@@ -677,6 +677,7 @@ img {
 .list-portfolio {
     position: relative;
     color: var(--OCEAN);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-portfolio::after {
     position: absolute;
@@ -684,7 +685,7 @@ img {
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    bottom: -1px;
+    bottom: 0;
     left: 0;
     background-color: var(--OCEAN);
 }
