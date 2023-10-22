@@ -749,6 +749,10 @@ img {
     border: 1px solid var(--CORNFLOWER);
     border-top: none
 }
+.portfolio-links:hover,
+.portfolio-links:focus {
+    transform: translateY(0%);
+}
 .list-of-links {
     flex-basis: calc((100% - 48px) / 3);
 }
@@ -776,5 +780,5 @@ img {
 }
 .portfolio-paragraphs:hover,
 .portfolio-paragraphs:focus {
-    transform: translateY(0%);
+    
 }
