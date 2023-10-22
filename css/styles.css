@@ -749,10 +749,6 @@ img {
     border: 1px solid var(--CORNFLOWER);
     border-top: none
 }
-.portfolio-links:hover,
-.portfolio-links:focus {
-    transform: translateY(0%);
-}
 .list-of-links {
     flex-basis: calc((100% - 48px) / 3);
 }
@@ -778,7 +774,22 @@ img {
     letter-spacing: 0.32px;
     color: var(--SLATE);
 }
-.portfolio-paragraphs:hover,
-.portfolio-paragraphs:focus {
-    
+.portfolio-image {
+    position: relative;
+    overflow: hidden;
+}
+.image-paragraph {
+    position: absolute;
+    color: var(--CLOUD);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    padding: 40px 32px;
+    background-color: var(--OCEAN);
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
 }
