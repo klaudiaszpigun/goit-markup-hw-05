@@ -151,9 +151,6 @@ img {
     list-style: none;
     margin-top: 24px;
 }
-.list-studio {
-    padding: 24px 0;
-}
 
 
 
@@ -716,6 +713,7 @@ img {
     padding: 12px 24px;
     border-radius: 4px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-buttons:hover {
     color: var(--WHITE);
@@ -752,10 +750,12 @@ img {
 }
 .list-of-links {
     flex-basis: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-of-links:focus,
 .list-of-links:hover {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 .portfolio-headings {
     color: var(--NAVY-BLUE);
