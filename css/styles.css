@@ -298,7 +298,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.4px;
     font-weight: 500;
-    color: var(--NAVY-BLUE-MODAL);
+    color: var(--NAVY-BLUE);
 }
 .about-us-list-item > .list-paragraph {
     color: var(--SLATE);
@@ -351,7 +351,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    color: var(--NAVY-BLUE-MODAL);
+    color: var(--NAVY-BLUE);
     margin-bottom: 72px;
 }
 
